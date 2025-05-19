@@ -1,0 +1,41 @@
+---
+title: "My Projects"
+format:
+  html:
+    code-fold: true
+    code-summary: "Show code"
+    code-tools: true
+---
+
+# Section One
+
+This is text in section one. Lorem ipsum. This is the Normal PDF
+
+$$
+f_X(x) = \dfrac{1}{\sigma \sqrt{2\pi}} \exp \Big( - \frac{1}{2}\Big(\dfrac{x-\mu}{\sigma}\Big)^2\ \Big)
+$$
+The Standard Normal Distribution, $\Phi(z)$, is when $\mu = 0$ and $\sigma = 1$. It has the following density curve:
+
+```{r, test_cell, echo=TRUE}
+# define a sequence of x values
+x <- seq(-4, 4, length.out = 1000)
+
+# compute the standard normal density
+y <- dnorm(x, mean = 0, sd = 1)
+
+# plot the density curve
+plot(x, y, type = "l", lwd = 2, col = "blue",
+     main = "Standard Normal Density",
+     xlab = "x", ylab = "Density")
+```
+
+```{r, hidden_cell, echo = FALSE}
+1+1
+```
+# Section Two
+
+This is text in section two. Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+
+# Section Three
+
+This is text in section three. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
