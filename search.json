@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "pages/research.html",
+    "href": "pages/research.html",
+    "title": "My Research",
+    "section": "",
+    "text": "🚧 Under Construction… 🚧"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome",
+    "section": "",
+    "text": "Hello!\nWelcome to my website. My name is Caden Hewlett, and I am a graduate student in statistics at the University of British Columbia."
+  },
+  {
+    "objectID": "pages/projects.html",
+    "href": "pages/projects.html",
+    "title": "My Projects",
+    "section": "",
+    "text": "Section One\nThis is text in section one. Lorem ipsum. This is the Normal PDF\n\\[\nf_X(x) = \\dfrac{1}{\\sigma \\sqrt{2\\pi}} \\exp \\Big( - \\frac{1}{2}\\Big(\\dfrac{x-\\mu}{\\sigma}\\Big)^2\\ \\Big)\n\\] The Standard Normal Distribution, \\(\\Phi(z)\\), is when \\(\\mu = 0\\) and \\(\\sigma = 1\\). It has the following density curve:\n\n\nShow code\n# define a sequence of x values\nx &lt;- seq(-4, 4, length.out = 1000)\n\n# compute the standard normal density\ny &lt;- dnorm(x, mean = 0, sd = 1)\n\n# plot the density curve\nplot(x, y, type = \"l\", lwd = 2, col = \"blue\",\n     main = \"Standard Normal Density\",\n     xlab = \"x\", ylab = \"Density\")\n\n\n\n\n\n\n\n\n\n\n\n[1] 2\n\n\n\n\nSection Two\nThis is text in section two. Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n\n\nSection Three\nThis is text in section three. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+  }
+]
